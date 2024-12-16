@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.css-1t8x7v1 >.ps-menu-button 
+{
+  padding: 0 !important;
+}
+.css-16jesut >.ps-menu-button{
+  padding-left: 0 !important;
+}
+.css-1tqrhto >.ps-menu-button{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.css-1wvake5.ps-collapsed {
+  width: 42px !important;
+  min-width: 42px !important;
+}
+.css-1wvake5 {
+  width: 200px !important;
+  min-width: 200px !important;
+
+}
+@media (min-width: 600px){
+.css-r6ewbb-MuiToolbar-root {
+    min-height: 52px !important;
+}
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+  background-color: rgb(204 251 241 / 1) !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  box-shadow: none !important;
+}
