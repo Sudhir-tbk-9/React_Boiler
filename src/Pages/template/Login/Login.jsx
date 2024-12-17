@@ -14,6 +14,7 @@ const generateCaptcha = () => {
 };
 
 const Login = () => {
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [captcha, setCaptcha] = useState(generateCaptcha());
@@ -28,7 +29,7 @@ const Login = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const post = Object.fromEntries(formData);
